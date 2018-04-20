@@ -7,3 +7,8 @@ venv
 
 #[ DATABASE ]
 *.gz
+
+#[ ECLIPSE ]
+.project
+.settings
+.pydevproject
