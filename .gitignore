@@ -1,0 +1,9 @@
+#[ VIRTUAL ENVIRONMENT ]
+venv
+
+#[ PYTHON ]
+*.pyc
+*.*~
+
+#[ DATABASE ]
+*.gz
