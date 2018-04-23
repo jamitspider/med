@@ -12,3 +12,10 @@ venv
 .project
 .settings
 .pydevproject
+
+#[ Allure ]
+allure-report
+allure-results
+
+#[ Driver ]
+geckodriver.log

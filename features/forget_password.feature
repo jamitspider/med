@@ -1,4 +1,4 @@
-Feature: user reset password by using forget password feature
+Feature: User reset password by using forget password feature
 		As a user i want to reset my password with valid data
 		
 Scenario: reset password to medsembly by valid user details
