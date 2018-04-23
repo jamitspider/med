@@ -13,4 +13,12 @@ Scenario:	Signup with valid user detail
 			And user click on confirm link 
 			Then ensure that user should redirect to Confirm E-mail Address page to verify email
 			When user click on confirm button to verify mail
-			Then ensure that after verification user goes to login page 
+			Then ensure that after verification user goes to Sign In page 
+			
+Scenario:	Try to Signup with already register email
+			Given the user on medsembly signup page
+			When user enter jamit@mailinator.com as email in signup form
+			And user enter spider@123 as password in signup form
+			And user enter spider@123 as confirm password in signup form
+			And user click on signup button for signup
+			Then ensure that user should get error notification A user is already registered with this e-mail address.
